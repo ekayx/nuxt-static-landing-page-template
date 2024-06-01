@@ -4,6 +4,8 @@
 
 Setting up small static websites to display a company, a product or a portfolio often takes much more time than initially expected. This repository is intended to simplify the start for developers who like to use vue / nuxt. Due to the server side rendering functionality of nuxt, the site is also relatively performant and quite good for SEO.
 
+Warning: Components in ./components are free components provided by tailgrids. The terms of use of Tailgrid apply. <https://tailgrids.com/license>
+
 ## Includes
 
 - Nuxt 3
