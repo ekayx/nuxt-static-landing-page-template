@@ -1,5 +1,9 @@
 # nuxt-static-landing-page-template (nuxt, typescript, tailwind, tailgrids)
 
+## Demo
+
+<https://nuxt-static-landing-page-template.vercel.app/>
+
 ## General
 
 Setting up small static websites to display a company, a product or a portfolio often takes much more time than initially expected. This repository is intended to simplify the start for developers who like to use vue / nuxt. Due to the server side rendering functionality of nuxt, the site is also relatively performant and quite good for SEO.
