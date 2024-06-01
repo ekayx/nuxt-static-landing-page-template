@@ -19,6 +19,7 @@ Setting up small static websites to display a company, a product or a portfolio 
 - Nuxt: <https://nuxt.com/docs/getting-started/introduction>
 - Nuxt/Typescript: <https://nuxt.com/docs/guide/concepts/typescript>
 - Nuxt/Tailwind: <https://tailwindcss.com/docs/guides/nuxtjs>
+- TailGrids: <https://tailgrids.com/> (using free components)
 
 ## Setup
 
