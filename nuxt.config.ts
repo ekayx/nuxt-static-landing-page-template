@@ -11,4 +11,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  ssr: true,
 });
