@@ -1,4 +1,4 @@
-# nuxt-static-landing-page-template (nuxt, typescript, tailwind)
+# nuxt-static-landing-page-template (nuxt, typescript, tailwind, tailgrids)
 
 ## General
 
@@ -9,6 +9,7 @@ Setting up small static websites to display a company, a product or a portfolio 
 - Nuxt 3
 - Typescript
 - Tailwind
+- Tailgrids
 
 ## Need to be replaced during setup
 
