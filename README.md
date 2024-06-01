@@ -7,17 +7,8 @@ Setting up small static websites to display a company, a product or a portfolio 
 ## Includes
 
 - Nuxt 3
-
-## Setup history
-
-```bash
-npx nuxi@latest init example
-
-```
-
-## Features
-
-## File structure
+- Typescript
+- Tailwind
 
 ## Need to be replaced during setup
 
@@ -27,6 +18,7 @@ npx nuxi@latest init example
 
 - Nuxt: <https://nuxt.com/docs/getting-started/introduction>
 - Nuxt/Typescript: <https://nuxt.com/docs/guide/concepts/typescript>
+- Nuxt/Tailwind: <https://tailwindcss.com/docs/guides/nuxtjs>
 
 ## Setup
 
