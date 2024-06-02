@@ -66,7 +66,7 @@ const handleNext = () => {
                   <div
                     class="relative mb-12 w-full max-w-[310px] md:mb-0 md:mr-12 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16"
                   >
-                    <img :src="item.image" alt="image" class="w-full" />
+                    <NuxtImg :src="item.image" alt="image" class="w-full" />
                     <span
                       class="absolute -left-6 -top-6 z-[-1] hidden sm:block"
                     >
@@ -350,7 +350,7 @@ const handleNext = () => {
                   <div class="w-full">
                     <div>
                       <div class="mb-7">
-                        <img :src="item.reviewImg" :alt="item.reviewAlt" />
+                        <NuxtImg :src="item.reviewImg" :alt="item.reviewAlt" />
                       </div>
 
                       <p

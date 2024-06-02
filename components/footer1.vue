@@ -27,12 +27,12 @@ watch(locale, () => {
               href="javascript:void(0)"
               class="mb-6 inline-block max-w-[160px]"
             >
-              <img
+              <NuxtImg
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
                 alt="logo"
                 class="max-w-full dark:hidden"
               />
-              <img
+              <NuxtImg
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                 alt="logo"
                 class="max-w-full hidden dark:block"

@@ -17,7 +17,7 @@ watch(locale, () => {
 <template>
   <!-- ====== Hero Section Start -->
   <div
-  id="home"
+    id="home"
     class="relative bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]"
   >
     <div class="container mx-auto">
@@ -95,7 +95,7 @@ watch(locale, () => {
                   :href="client.link"
                   class="block py-3"
                 >
-                  <img :src="client.logo" :alt="client.name" />
+                  <NuxtImg :src="client.logo" :alt="client.name" />
                 </a>
               </div>
             </div>
@@ -105,8 +105,8 @@ watch(locale, () => {
         <div class="w-full px-4 lg:w-6/12">
           <div class="lg:ml-auto lg:text-right">
             <div class="relative z-10 inline-block pt-11 lg:pt-0">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
+              <NuxtImg
+                src="/img/4.png"
                 alt="hero"
                 class="max-w-full lg:ml-auto"
               />

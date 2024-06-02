@@ -92,48 +92,42 @@ export default {
       "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
     projects: [
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-01.jpg",
+        image: "/img/5.jpg",
         category: "Branding",
         title: "Branding Design",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg",
+        image: "/img/6.jpg",
         category: "Marketing",
         title: "Best Marketing tips",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-03.jpg",
+        image: "/img/7.jpg",
         category: "Development",
         title: "Web Design Trend",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-04.jpg",
+        image: "/img/8.jpg",
         category: "Design",
         title: "Business Card Design",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-05.jpg",
+        image: "/img/9.jpg",
         category: "Marketing",
         title: "Digital marketing",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-06.jpg",
+        image: "/img/10.jpg",
         category: "Branding",
         title: "Creative Agency",
         buttonText: "View Details",
@@ -148,26 +142,22 @@ export default {
       "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
     members: [
       {
-        image:
-          "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-01.jpg",
+        image: "/img/11.jpg",
         name: "Coriss Ambady",
         profession: "Web Developer",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-02.jpg",
+        image: "/img/12.jpg",
         name: "Glorius Cristian",
         profession: "App Developer",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-03.jpg",
+        image: "/img/13.jpg",
         name: "Jackie Sanders",
         profession: "UI/UX Designer",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-04.jpg",
+        image: "/img/14.jpg",
         name: "Nikolas Brooten",
         profession: "Sales Manager",
       },
@@ -241,8 +231,7 @@ export default {
   testimonial: {
     testimonials: [
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg",
+        image: "/img/15.jpg",
         reviewImg:
           "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
         reviewAlt: "lineicon",
@@ -252,8 +241,7 @@ export default {
         position: "Chief Executive Officer.",
       },
       {
-        image:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg",
+        image: "/img/16.jpg",
         reviewImg:
           "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
         reviewAlt: "lineicon",
