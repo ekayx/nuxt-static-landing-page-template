@@ -1,32 +1,17 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { tm, locale } = useI18n();
 
-const teamItems = ref([
-  {
-    image:
-      "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-01.jpg",
-    name: "Coriss Ambady",
-    profession: "Web Developer",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-02.jpg",
-    name: "Glorius Cristian",
-    profession: "App Developer",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-03.jpg",
-    name: "Jackie Sanders",
-    profession: "UI/UX Designer",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-04.jpg",
-    name: "Nikolas Brooten",
-    profession: "Sales Manager",
-  },
-]);
+type TeamItem = {
+  image: string;
+  name: string;
+  profession: string;
+};
+
+const teamItems = ref(tm("team.members") as TeamItem[]);
+watch(locale, () => {
+  teamItems.value = tm("team.members");
+});
 </script>
 
 <template>
@@ -37,16 +22,15 @@ const teamItems = ref([
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[510px] text-center">
             <span class="text-primary mb-2 block text-lg font-semibold">
-              Our Team
+              {{ $t("team.tag") }}
             </span>
             <h2
               class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
             >
-              Our Awesome Team
+              {{ $t("team.title") }}
             </h2>
             <p class="text-body-color text-base dark:text-dark-6">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
+              {{ $t("team.subtitle") }}
             </p>
           </div>
         </div>

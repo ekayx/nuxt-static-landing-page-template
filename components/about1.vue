@@ -607,28 +607,21 @@
         <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
           <div class="mt-10 lg:mt-0">
             <span class="block mb-4 text-lg font-semibold text-primary">
-              Why Choose Us
+              {{ $t("about.tag") }}
             </span>
             <h2
               class="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]"
             >
-              Make your customers happy by giving services.
+              {{ $t("about.title") }}
             </h2>
             <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less.
-            </p>
-            <p class="mb-8 text-base text-body-color dark:text-dark-6">
-              A domain name is one of the first steps to establishing your
-              brand. Secure a consistent brand image with a domain name that
-              matches your business.
+              <span class="pre-line"> {{ $t("about.description") }}</span>
             </p>
             <a
               href="javascript:void(0)"
               class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
             >
-              Get Started
+               {{ $t("about.cta") }}
             </a>
           </div>
         </div>

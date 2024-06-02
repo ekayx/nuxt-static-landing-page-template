@@ -1,5 +1,6 @@
 <template>
   <div>
+    <header-1 />
     <services-1 />
     <about-1 />
     <portfolio-1 />

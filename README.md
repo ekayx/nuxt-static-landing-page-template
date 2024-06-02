@@ -16,10 +16,29 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Typescript
 - Tailwind
 - Tailgrids
+- Localization nuxt/i18n
+
+## Todos
+
+- icons
+- github link navbar
+- switch language
+- toggle night mode
+- image optimization, replace hardcoded vector images
+- add subpages for terms of use, contact ...
+- contact form
+- responsiveness
+- seo optimization
+- speed insights
+- cookiemanager
+- smooth scrolling
+- ai chat
 
 ## Need to be replaced during setup
 
+- components for sections in ./components
 - public/favicon.ico
+- localization files in ./locales
 
 ## Documentations
 
@@ -27,6 +46,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Nuxt/Typescript: <https://nuxt.com/docs/guide/concepts/typescript>
 - Nuxt/Tailwind: <https://tailwindcss.com/docs/guides/nuxtjs>
 - TailGrids: <https://tailgrids.com/> (using free components)
+- i18n: <https://i18n.nuxtjs.org/>
 
 ## Setup
 

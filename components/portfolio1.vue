@@ -1,64 +1,20 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { tm, locale } = useI18n();
 
-interface PortfolioItem {
+type PortfolioItem = {
   image: string;
   category: string;
   title: string;
   buttonText: string;
   buttonLink: string;
-}
+};
 
-const portfolioItems = ref<PortfolioItem[]>([
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-01.jpg",
-    category: "Branding",
-    title: "Branding Design",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg",
-    category: "Marketing",
-    title: "Best Marketing tips",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-03.jpg",
-    category: "Development",
-    title: "Web Design Trend",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-04.jpg",
-    category: "Design",
-    title: "Business Card Design",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-05.jpg",
-    category: "Marketing",
-    title: "Digital marketing",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-06.jpg",
-    category: "Branding",
-    title: "Creative Agency",
-    buttonText: "View Details",
-    buttonLink: "#",
-  },
-]);
+const portfolioItems = ref(tm("portfolio.projects") as PortfolioItem[]);
+watch(locale, () => {
+  portfolioItems.value = tm("portfolio.projects");
+});
 
 const selectedCategory = ref<string>("All");
 
@@ -97,16 +53,15 @@ const filterItems = () => {
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[510px] text-center">
             <span class="text-primary mb-2 block text-lg font-semibold">
-              Our Portfolio
+              {{ $t("portfolio.tag") }}
             </span>
             <h2
               class="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]"
             >
-              Our Recent Projects
+              {{ $t("portfolio.title") }}
             </h2>
             <p class="text-body-color text-base dark:text-dark-6">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
+              {{ $t("portfolio.subtitle") }}
             </p>
           </div>
         </div>

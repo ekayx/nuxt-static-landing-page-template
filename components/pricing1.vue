@@ -1,57 +1,28 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { tm, locale } = useI18n();
 
-const pricingPlans = ref([
-  {
-    name: "Personal",
-    price: "$59",
-    description: "Perfect for using in a personal website or a client project.",
-    features: {
-      users: "1 User",
-      components: "All UI components",
-      access: "Lifetime access",
-      updates: "Free updates",
-      projects: "Use on 1 (one) project",
-      support: "3 Months support",
-    },
-    button: {
-      text: "Choose Personal",
-    },
-  },
-  {
-    name: "Business",
-    price: "$199",
-    description: "Perfect for using in a Business website or a client project.",
-    features: {
-      users: "5 Users",
-      components: "All UI components",
-      access: "Lifetime access",
-      updates: "Free updates",
-      projects: "Use on 3 (Three) project",
-      support: "4 Months support",
-    },
-    button: {
-      text: "Choose Business",
-    },
-  },
-  {
-    name: "Professional",
-    price: "$256",
-    description:
-      "Perfect for using in a Professional website or a client project.",
-    features: {
-      users: "Unlimited Users",
-      components: "All UI components",
-      access: "Lifetime access",
-      updates: "Free updates",
-      projects: "Use on Unlimited project",
-      support: "12 Months support",
-    },
-    button: {
-      text: "Choose Professional",
-    },
-  },
-]);
+type PricingPlan = {
+  name: string;
+  price: string;
+  description: string;
+  features: {
+    users: string;
+    components: string;
+    access: string;
+    updates: string;
+    projects: string;
+    support: string;
+  };
+  button: {
+    text: string;
+  };
+};
+
+const pricingPlans = ref(tm("pricing.plans") as PricingPlan[]);
+watch(locale, () => {
+  pricingPlans.value = tm("pricing.plans");
+});
 </script>
 
 <template>
@@ -64,16 +35,15 @@ const pricingPlans = ref([
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[510px] text-center">
             <span class="mb-2 block text-lg font-semibold text-primary">
-              Pricing Table
+              {{ $t("pricing.tag") }}
             </span>
             <h2
               class="mb-3 text-3xl leading-[1.208] font-bold text-dark dark:text-white sm:text-4xl md:text-[40px]"
             >
-              Our Pricing Plan
+              {{ $t("pricing.title") }}
             </h2>
             <p class="text-base text-body-color dark:text-dark-6">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
+              {{ $t("pricing.subtitle") }}
             </p>
           </div>
         </div>

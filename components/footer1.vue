@@ -1,35 +1,17 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { tm, locale } = useI18n();
 
-const menus = ref([
-  {
-    title: "Resources",
-    items: [
-      { text: "SaaS Development", link: "javascript:void(0)" },
-      { text: "Our Products", link: "javascript:void(0)" },
-      { text: "User Flow", link: "javascript:void(0)" },
-      { text: "User Strategy", link: "javascript:void(0)" },
-    ],
-  },
-  {
-    title: "Company",
-    items: [
-      { text: "About TailGrids", link: "javascript:void(0)" },
-      { text: "Contact & Support", link: "javascript:void(0)" },
-      { text: "Success History", link: "javascript:void(0)" },
-      { text: "Setting & Privacy", link: "javascript:void(0)" },
-    ],
-  },
-  {
-    title: "Quick Links",
-    items: [
-      { text: "Premium Support", link: "javascript:void(0)" },
-      { text: "Our Services", link: "javascript:void(0)" },
-      { text: "Know Our Team", link: "javascript:void(0)" },
-      { text: "Download App", link: "javascript:void(0)" },
-    ],
-  },
-]);
+type FooterMenu = {
+  title: string;
+  items: { text: string; link: string }[];
+};
+
+const menus = ref(tm("footer.menus") as FooterMenu[]);
+watch(locale, () => {
+  menus.value = tm("footer.menus");
+});
 </script>
 
 <template>
@@ -57,8 +39,7 @@ const menus = ref([
               />
             </a>
             <p class="text-base text-body-color dark:text-dark-6 mb-7">
-              Sed ut perspiciatis undmnis is iste natus error sit amet
-              voluptatem totam rem aperiam.
+              {{ $t("footer.description") }}
             </p>
             <p
               class="flex items-center text-sm font-medium text-dark dark:text-white"
@@ -92,7 +73,7 @@ const menus = ref([
                   </defs>
                 </svg>
               </span>
-              <span>+012 (345) 678 99</span>
+              <span>{{ $t("footer.phone") }}</span>
             </p>
           </div>
         </div>
@@ -122,7 +103,7 @@ const menus = ref([
         <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
           <div class="w-full mb-10">
             <h4 class="text-lg font-semibold text-dark dark:text-white mb-9">
-              Follow Us On
+              {{ $t("footer.followUs") }}
             </h4>
             <div class="flex items-center mb-6">
               <a
@@ -187,7 +168,7 @@ const menus = ref([
               </a>
             </div>
             <p class="text-base text-body-color dark:text-dark-6">
-              &copy; 2025 TailGrids
+              {{ $t("footer.copyright") }}
             </p>
           </div>
         </div>

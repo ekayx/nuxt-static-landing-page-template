@@ -2,8 +2,24 @@
 import type { Swiper as SwiperType } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { onMounted, ref } from "vue";
-
 import "swiper/css";
+import { useI18n } from "vue-i18n";
+
+const { tm, locale } = useI18n();
+
+type Testimonial = {
+  image: string;
+  reviewImg: string;
+  reviewAlt: string;
+  details: string;
+  name: string;
+  position: string;
+};
+
+const testimonialItems = ref(tm("testimonial.testimonials") as Testimonial[]);
+watch(locale, () => {
+  testimonialItems.value = tm("testimonial.testimonials");
+});
 
 const sliderRef = ref<SwiperType | null>(null);
 
@@ -34,30 +50,6 @@ const handleNext = () => {
     sliderRef.value.slideNext();
   }
 };
-const testimonialItems = ref([
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg",
-    reviewImg:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
-    reviewAlt: "lineicon",
-    details:
-      "File storage made easy – including powerful features you won’t find anywhere else. Whether you’re.",
-    name: "Larry Diamond",
-    position: "Chief Executive Officer.",
-  },
-  {
-    image:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg",
-    reviewImg:
-      "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
-    reviewAlt: "lineicon",
-    details:
-      "File storage made easy – including powerful features you won’t find anywhere else. Whether you’re.",
-    name: "Larry Diamond",
-    position: "Chief Executive Officer.",
-  },
-]);
 </script>
 
 <template>

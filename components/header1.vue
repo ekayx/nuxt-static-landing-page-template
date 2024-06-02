@@ -1,132 +1,20 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
+const { tm, locale } = useI18n();
 
-const open = ref(false);
-const dropdownButtonRef = ref<HTMLButtonElement | null>(null);
-
-const toggleNavbar = () => {
-  open.value = !open.value;
-};
-
-const navLinkItems = ref([
-  { text: "Home", href: "javascript:void(0)" },
-  { text: "Payment", href: "javascript:void(0)" },
-  { text: "About", href: "javascript:void(0)" },
-  { text: "Blog", href: "javascript:void(0)" },
-]);
-
-// Custom composition function to handle click outside
-const handleClickOutside = (event: MouseEvent) => {
-  if (
-    dropdownButtonRef.value &&
-    !dropdownButtonRef.value.contains(event.target as Node)
-  ) {
-    open.value = false;
-  }
-};
-
-onMounted(() => {
-  document.addEventListener("click", handleClickOutside);
+const clients = ref(
+  tm("header.clients") as {
+    name: string;
+    logo: string;
+    link: string;
+  }[]
+);
+watch(locale, () => {
+  clients.value = tm("header.clients");
 });
-
-onUnmounted(() => {
-  document.removeEventListener("click", handleClickOutside);
-});
-
-const clients = ref([
-  {
-    name: "Ayroui",
-    logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg",
-    link: "javascript:void(0)",
-  },
-  {
-    name: "GrayGrids",
-    logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg",
-    link: "javascript:void(0)",
-  },
-  {
-    name: "UIdeck",
-    logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg",
-    link: "javascript:void(0)",
-  },
-]);
 </script>
 
 <template>
-  <!-- ====== Navbar Section Start -->
-  <header class="absolute top-0 left-0 z-50 w-full">
-    <div class="container">
-      <div class="relative -mx-4 flex items-center justify-between">
-        <div class="w-60 max-w-full px-4">
-          <a href="/#" class="block w-full py-5">
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
-              alt="logo"
-              class="dark:hidden"
-            />
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-              alt="logo"
-              class="hidden dark:block"
-            />
-          </a>
-        </div>
-        <div class="flex w-full items-center justify-between px-4">
-          <div>
-            <button
-              @click="toggleNavbar"
-              ref="dropdownButtonRef"
-              id="navbarToggler"
-              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
-            >
-              <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"
-              ></span>
-              <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"
-              ></span>
-              <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"
-              ></span>
-            </button>
-            <nav
-              :class="{ hidden: !open }"
-              id="navbarCollapse"
-              class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white dark:bg-dark-2 py-5 px-6 shadow transition-all lg:static lg:bg-transparent lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11 lg:dark:bg-transparent"
-            >
-              <ul class="block lg:flex">
-                <template v-for="(item, index) in navLinkItems" :key="index">
-                  <li>
-                    <a
-                      v-if="item.href"
-                      :href="item.href"
-                      class="flex py-2 text-base font-medium text-dark dark:text-white hover:text-primary lg:ml-10 lg:inline-flex"
-                    >
-                      {{ item.text }}
-                    </a>
-                  </li>
-                </template>
-              </ul>
-            </nav>
-          </div>
-          <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-            <a
-              href="/#"
-              class="py-3 text-base font-medium px-7 text-dark dark:text-white hover:text-primary"
-              >Sign in</a
-            >
-            <a
-              href="/#"
-              class="py-3 text-base font-medium text-white rounded-md bg-primary px-7 hover:bg-blue-dark"
-              >Sign Up</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ====== Navbar Section End -->
-
   <!-- ====== Hero Section Start -->
   <div
     class="relative bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]"
@@ -138,16 +26,12 @@ const clients = ref([
             <h1
               class="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl"
             >
-              The Greatest <br />
-              Journey Of Online <br />
-              Payment.
+              {{ $t("header.title") }}
             </h1>
             <p
               class="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6"
             >
-              With TailGrids, business and students thrive together. Business
-              can perfectly match their staffing to changing demand throughout
-              the dayed.
+              {{ $t("header.subtitle") }}
             </p>
             <ul class="flex flex-wrap items-center">
               <li>
@@ -155,7 +39,7 @@ const clients = ref([
                   href="javascript:void(0)"
                   class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
                 >
-                  Get Started
+                  {{ $t("header.cta") }}
                 </a>
               </li>
               <li>
@@ -192,7 +76,7 @@ const clients = ref([
                       />
                     </svg>
                   </span>
-                  Download App
+                  {{ $t("header.download") }}
                 </a>
               </li>
             </ul>
@@ -200,7 +84,7 @@ const clients = ref([
               <h6
                 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6"
               >
-                Some Of Our Clients
+                {{ $t("header.clientsTitle") }}
                 <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
               </h6>
               <div class="flex items-center gap-4 xl:gap-[50px]">

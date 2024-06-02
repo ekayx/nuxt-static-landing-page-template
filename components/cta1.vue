@@ -8,13 +8,12 @@
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4 lg:w-1/2">
             <span class="block mb-4 text-base font-medium text-white">
-              Find Your Next Dream App
+              {{ $t("cta.tag") }}
             </span>
             <h2
               class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0"
             >
-              <span class="xs:block"> Get started with </span>
-              <span>our free trial</span>
+              <span class="pre-line">{{ $t("cta.title") }}</span>
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
@@ -23,13 +22,13 @@
                 href="javascript:void(0)"
                 class="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md hover:bg-shadow-1 text-primary px-7"
               >
-                Get Pro Version
+                {{ $t("cta.cta") }}
               </a>
               <a
                 href="javascript:void(0)"
                 class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-opacity-90"
               >
-                Start Free Trial
+                {{ $t("cta.secondary") }}
               </a>
             </div>
           </div>
