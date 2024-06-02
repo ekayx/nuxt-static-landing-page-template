@@ -22,6 +22,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Smooth Scrolling
 - Image Optimization using `<NuxtImg>`
 - animations and intersection animations via animista
+- placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
 
 ## Todos
 

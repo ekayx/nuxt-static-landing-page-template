@@ -20,17 +20,17 @@ export default {
     clients: [
       {
         name: "Ayroui",
-        logo: "/img/brands/ayroui.svg",
+        logo: "/img/brands/logoipsum-297.svg",
         link: "javascript:void(0)",
       },
       {
         name: "GrayGrids",
-        logo: "/img/brands/graygrids.svg",
+        logo: "/img/brands/logoipsum-311.svg",
         link: "javascript:void(0)",
       },
       {
         name: "UIdeck",
-        logo: "/img/brands/uideck.svg",
+        logo: "/img/brands/logoipsum-323.svg",
         link: "javascript:void(0)",
       },
     ],

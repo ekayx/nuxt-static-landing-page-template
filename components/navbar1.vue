@@ -65,11 +65,7 @@ const scrollTo = (id: string) => {
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
           <a href="/#" class="block w-full py-5">
-            <img
-              src="/img/logo/logo-primary.svg"
-              alt="logo"
-              class="dark:hidden"
-            />
+            <img src="/img/logo/logo.svg" alt="logo" class="dark:hidden" />
             <img
               src="/img/logo/logo-white.svg"
               alt="logo"
