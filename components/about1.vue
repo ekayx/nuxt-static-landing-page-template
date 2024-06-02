@@ -10,15 +10,30 @@
           <div class="flex items-center -mx-3 sm:-mx-4">
             <div class="w-full px-3 sm:px-4 xl:w-1/2">
               <div class="py-3 sm:py-4">
-                <NuxtImg src="/img/1.jpg" alt="" class="w-full rounded-2xl" />
+                <NuxtImg
+                  src="/img/1.jpg"
+                  alt=""
+                  class="w-full rounded-2xl"
+                  data-inviewport="scaleUpCenter"
+                />
               </div>
               <div class="py-3 sm:py-4">
-                <NuxtImg src="/img/2.jpg" alt="" class="w-full rounded-2xl" />
+                <NuxtImg
+                  src="/img/2.jpg"
+                  alt=""
+                  class="w-full rounded-2xl"
+                  data-inviewport="scaleUpCenter"
+                />
               </div>
             </div>
             <div class="w-full px-3 sm:px-4 xl:w-1/2">
               <div class="relative z-10 my-4">
-                <NuxtImg src="/img/3.jpg" alt="" class="w-full rounded-2xl" />
+                <NuxtImg
+                  src="/img/3.jpg"
+                  alt=""
+                  class="w-full rounded-2xl"
+                  data-inviewport="scaleUpCenter"
+                />
                 <span class="absolute -right-7 -bottom-7 z-[-1]">
                   <svg
                     width="134"

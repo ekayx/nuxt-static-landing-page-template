@@ -92,7 +92,12 @@ const selectCategory = (category: string) => {
         >
           <div class="relative mb-12">
             <div class="overflow-hidden rounded-[10px]">
-              <NuxtImg :src="item.image" alt="portfolio" class="w-full" />
+              <NuxtImg
+                :src="item.image"
+                alt="portfolio"
+                class="w-full"
+                data-inviewport="scaleUpCenter"
+              />
             </div>
             <div
               class="relative z-10 mx-7 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark"

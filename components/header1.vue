@@ -109,6 +109,7 @@ watch(locale, () => {
                 src="/img/4.png"
                 alt="hero"
                 class="max-w-full lg:ml-auto"
+                data-inviewport="scaleUpCenter"
               />
               <span class="absolute -left-8 -bottom-8 z-[-1]">
                 <svg

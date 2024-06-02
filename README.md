@@ -15,30 +15,35 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Nuxt 3
 - Typescript
 - Tailwind
+- Sass
 - Tailgrids
 - Localization with nuxt/i18n
 - Icons via Iconify
 - Smooth Scrolling
+- Image Optimization using `<NuxtImg>`
+- animations and intersection animations via animista
 
 ## Todos
 
-- image optimization via netlify cdn, outsource hardcoded vector images
-- animations and intersection animations
-- add subpages for terms of use, contact ...
 - contact form via netlify forms
-- seo optimization and check google speed insights
 - cookiemanager via usercentrics cookiebot
-- smooth scrolling (native)
-- analytics via netlify analytics and sentry
+
+## Future Work
+
+- forms via web3forms, only error reports via netlify forms
+- analytics via posthog or umami
+- error analytics via sentry
+- seo optimization, check google speed insights
 - ai chat via ?
-- hotchar?
-- uptimerobot?
+- hotchar ?
+- uptimerobot ?
 
 ## Need to be replaced during setup
 
 - components for sections in ./components
 - public/favicon.ico
 - available languages in localization files in ./locales and in navbar element
+- add additional animations from animista to `assets\css\main.css`
 
 ## Documentations
 
@@ -49,6 +54,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - i18n: <https://i18n.nuxtjs.org/>
 - iconify: <https://iconify.design/docs/usage/css/tailwind/>
 - all icons: <https://icon-sets.iconify.design/>
+- animista: <https://animate.style/>
 
 ## Setup
 

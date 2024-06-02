@@ -23,6 +23,7 @@
     "@nuxtjs/i18n": "^8.3.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "sass": "^1.77.4",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5",
     "vue-tsc": "^1.8.27"
