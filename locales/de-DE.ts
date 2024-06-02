@@ -20,17 +20,17 @@ export default {
     clients: [
       {
         name: "Ayroui",
-        logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg",
+        logo: "/img/brands/ayroui.svg",
         link: "javascript:void(0)",
       },
       {
         name: "GrayGrids",
-        logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg",
+        logo: "/img/brands/graygrids.svg",
         link: "javascript:void(0)",
       },
       {
         name: "UIdeck",
-        logo: "https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg",
+        logo: "/img/brands/uideck.svg",
         link: "javascript:void(0)",
       },
     ],
@@ -233,8 +233,7 @@ export default {
     testimonials: [
       {
         image: "/img/15.jpg",
-        reviewImg:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
+        reviewImg: "/img/lineicon.svg",
         reviewAlt: "lineicon",
         details:
           "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",
@@ -243,8 +242,7 @@ export default {
       },
       {
         image: "/img/16.jpg",
-        reviewImg:
-          "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
+        reviewImg: "/img/lineicon.svg",
         reviewAlt: "lineicon",
         details:
           "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",

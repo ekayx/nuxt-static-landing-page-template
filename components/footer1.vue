@@ -28,16 +28,14 @@ watch(locale, () => {
               class="mb-6 inline-block max-w-[160px]"
             >
               <NuxtImg
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                src="/img/logo/logo.svg"
                 alt="logo"
                 class="max-w-full dark:hidden"
-                data-inviewport="scaleUpCenter"
               />
               <NuxtImg
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
+                src="/img/logo/logo-white.svg"
                 alt="logo"
                 class="max-w-full hidden dark:block"
-                data-inviewport="scaleUpCenter"
               />
             </a>
             <p class="text-base text-body-color dark:text-dark-6 mb-7">

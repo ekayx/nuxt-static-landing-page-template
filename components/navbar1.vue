@@ -66,12 +66,12 @@ const scrollTo = (id: string) => {
         <div class="w-60 max-w-full px-4">
           <a href="/#" class="block w-full py-5">
             <NuxtImg
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
+              src="/img/logo/logo-primary.svg"
               alt="logo"
               class="dark:hidden"
             />
             <NuxtImg
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
+              src="/img/logo/logo-white.svg"
               alt="logo"
               class="hidden dark:block"
             />
