@@ -355,7 +355,7 @@ const handleNext = () => {
                   <div class="w-full">
                     <div>
                       <div class="mb-7">
-                        <NuxtImg
+                        <img
                           :src="item.reviewImg"
                           :alt="item.reviewAlt"
                           data-inviewport="scaleUpCenter"

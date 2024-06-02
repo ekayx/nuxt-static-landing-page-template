@@ -27,12 +27,12 @@ watch(locale, () => {
               href="javascript:void(0)"
               class="mb-6 inline-block max-w-[160px]"
             >
-              <NuxtImg
+              <img
                 src="/img/logo/logo.svg"
                 alt="logo"
                 class="max-w-full dark:hidden"
               />
-              <NuxtImg
+              <img
                 src="/img/logo/logo-white.svg"
                 alt="logo"
                 class="max-w-full hidden dark:block"

@@ -95,7 +95,7 @@ watch(locale, () => {
                   :href="client.link"
                   class="block py-3"
                 >
-                  <NuxtImg :src="client.logo" :alt="client.name" />
+                  <img :src="client.logo" :alt="client.name" />
                 </a>
               </div>
             </div>
