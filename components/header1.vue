@@ -17,6 +17,7 @@ watch(locale, () => {
 <template>
   <!-- ====== Hero Section Start -->
   <div
+  id="home"
     class="relative bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]"
   >
     <div class="container mx-auto">

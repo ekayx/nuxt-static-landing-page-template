@@ -28,6 +28,7 @@ watch(locale, () => {
 <template>
   <!-- ====== Pricing Section Start -->
   <section
+    id="pricing"
     class="relative z-10 overflow-hidden bg-white dark:bg-dark pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
   >
     <div class="container mx-auto">

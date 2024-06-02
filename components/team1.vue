@@ -16,7 +16,7 @@ watch(locale, () => {
 
 <template>
   <!-- ====== Team Section Start -->
-  <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 dark:bg-dark">
+  <section id="team" class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 dark:bg-dark">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">

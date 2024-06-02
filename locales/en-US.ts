@@ -1,10 +1,12 @@
 export default {
   navbar: {
     elements: [
-      { text: "Home", href: "javascript:void(0)" },
-      { text: "Payment", href: "javascript:void(0)" },
-      { text: "About", href: "javascript:void(0)" },
-      { text: "Blog", href: "javascript:void(0)" },
+      { text: "Home", scrollToId: "home" },
+      { text: "Services", scrollToId: "services" },
+      { text: "About", scrollToId: "about" },
+      { text: "Portfolio", scrollToId: "portfolio" },
+      { text: "Team", scrollToId: "team" },
+      { text: "Pricing", scrollToId: "pricing" },
     ],
     toggleNightMode: "Toggle Night Mode",
   },
@@ -281,10 +283,9 @@ export default {
       {
         title: "Company",
         items: [
-          { text: "About TailGrids", link: "javascript:void(0)" },
-          { text: "Contact & Support", link: "javascript:void(0)" },
-          { text: "Success History", link: "javascript:void(0)" },
-          { text: "Setting & Privacy", link: "javascript:void(0)" },
+          { text: "Contact & Support", link: "/contact-us" },
+          { text: "Privacy Policy", link: "/privacy-policy" },
+          { text: "Terms of Use", link: "/terms-of-use" },
         ],
       },
       {

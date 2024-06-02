@@ -18,19 +18,21 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Tailgrids
 - Localization with nuxt/i18n
 - Icons via Iconify
+- Smooth Scrolling
 
 ## Todos
 
-- toggle night mode
-- image optimization, replace hardcoded vector images
+- image optimization via netlify cdn, outsource hardcoded vector images
+- animations and intersection animations
 - add subpages for terms of use, contact ...
-- contact form
-- responsiveness
-- seo optimization
-- speed insights
-- cookiemanager
-- smooth scrolling
-- ai chat
+- contact form via netlify forms
+- seo optimization and check google speed insights
+- cookiemanager via usercentrics cookiebot
+- smooth scrolling (native)
+- analytics via netlify analytics and sentry
+- ai chat via ?
+- hotchar?
+- uptimerobot?
 
 ## Need to be replaced during setup
 

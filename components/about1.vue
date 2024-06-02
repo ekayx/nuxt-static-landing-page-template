@@ -1,6 +1,7 @@
 <template>
   <!-- ====== About Section Start -->
   <section
+    id="about"
     class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark"
   >
     <div class="container mx-auto">
@@ -621,7 +622,7 @@
               href="javascript:void(0)"
               class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
             >
-               {{ $t("about.cta") }}
+              {{ $t("about.cta") }}
             </a>
           </div>
         </div>

@@ -14,7 +14,7 @@ const toggleNavbar = () => {
 const navLinkItems = ref(
   tm("navbar.elements") as {
     text: string;
-    href: string;
+    scrollToId: string;
   }[]
 );
 watch(locale, () => {
@@ -43,6 +43,17 @@ const switchLocalePath = useSwitchLocalePath();
 
 const toggleTheme = () => {
   document.documentElement.classList.toggle("dark");
+};
+
+const scrollTo = (id: string) => {
+  if (window.location.pathname !== "/") {
+    window.location.href = "/#" + id;
+    return;
+  }
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
 };
 </script>
 
@@ -93,9 +104,10 @@ const toggleTheme = () => {
                 <template v-for="(item, index) in navLinkItems" :key="index">
                   <li>
                     <a
-                      v-if="item.href"
-                      :href="item.href"
+                      v-if="item.scrollToId"
+                      href="javascript:void(0)"
                       class="flex py-2 text-base font-medium text-body-color hover:text-dark dark:text-dark-6 dark:hover:text-white lg:ml-12 lg:inline-flex"
+                      @click="scrollTo(item.scrollToId)"
                     >
                       {{ item.text }}
                     </a>

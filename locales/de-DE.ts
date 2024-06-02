@@ -1,10 +1,12 @@
 export default {
   navbar: {
     elements: [
-      { text: "Startseite", href: "javascript:void(0)" },
-      { text: "Zahlung", href: "javascript:void(0)" },
-      { text: "Über uns", href: "javascript:void(0)" },
-      { text: "Blog", href: "javascript:void(0)" },
+      { text: "Startseite", scrollToId: "home" },
+      { text: "Services", scrollToId: "services" },
+      { text: "Über Uns", scrollToId: "about" },
+      { text: "Portfolio", scrollToId: "portfolio" },
+      { text: "Team", scrollToId: "team" },
+      { text: "Preise", scrollToId: "pricing" },
     ],
     toggleNightMode: "Nachtmodus umschalten",
   },
