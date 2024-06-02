@@ -2,8 +2,8 @@ export default {
   navbar: {
     elements: [
       { text: "Startseite", scrollToId: "home" },
-      { text: "Services", scrollToId: "services" },
-      { text: "Über Uns", scrollToId: "about" },
+      { text: "Dienstleistungen", scrollToId: "services" },
+      { text: "Über uns", scrollToId: "about" },
       { text: "Portfolio", scrollToId: "portfolio" },
       { text: "Team", scrollToId: "team" },
       { text: "Preise", scrollToId: "pricing" },
@@ -11,25 +11,25 @@ export default {
     toggleNightMode: "Nachtmodus umschalten",
   },
   header: {
-    title: "Die größte\nReise der\nOnline-Zahlungen.",
+    title: "Das ultimative\nOnline-Erlebnis\nfür Zahlungen.",
     subtitle:
-      "Mit TailGrids gedeihen Unternehmen und Studierende zusammen. Unternehmen können ihr Personal perfekt an die sich ändernde Nachfrage im Laufe des Tages anpassen.",
-    cta: "Loslegen",
+      "Mit unserer Plattform können Unternehmen und Studenten gemeinsam gedeihen. Passen Sie Ihr Personal problemlos an die sich ändernde Nachfrage im Laufe des Tages an.",
+    cta: "Jetzt loslegen",
     download: "App herunterladen",
-    clientsTitle: "Einige unserer Kunden",
+    clientsTitle: "Unsere geschätzten Kunden",
     clients: [
       {
-        name: "Ayroui",
+        name: "Logo",
         logo: "/img/brands/logoipsum-297.svg",
         link: "javascript:void(0)",
       },
       {
-        name: "GrayGrids",
+        name: "LogoIpsum",
         logo: "/img/brands/logoipsum-311.svg",
         link: "javascript:void(0)",
       },
       {
-        name: "UIdeck",
+        name: "Ipsum",
         logo: "/img/brands/logoipsum-323.svg",
         link: "javascript:void(0)",
       },
@@ -37,86 +37,86 @@ export default {
   },
   services: {
     tag: "Unsere Dienstleistungen",
-    title: "Was wir anbieten",
-    subtitle: "Wir bieten Ihnen die besten Dienstleistungen.",
+    title: "Was wir bieten",
+    subtitle:
+      "Wir bieten außergewöhnliche Dienstleistungen, die auf Sie zugeschnitten sind.",
     items: [
       {
         icon: "icon-[raphael--piechart]",
-        title: "Erfrischendes Design",
+        title: "Innovatives Design",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
         icon: "icon-[mdi--tailwind]",
-        title: "Basierend auf Tailwind CSS",
+        title: "Maßgeschneiderte Lösungen",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
         icon: "icon-[fluent-mdl2--web-components]",
-        title: "100+ Komponenten",
+        title: "Umfangreiche Komponenten",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
         icon: "icon-[fluent--top-speed-20-regular]",
-        title: "Geschwindigkeitsoptimiert",
+        title: "Optimierte Leistung",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
         icon: "icon-[teenyicons--layers-outline]",
-        title: "Vollständig anpassbar",
+        title: "Hochgradig anpassbar",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
         icon: "icon-[ion--refresh]",
         title: "Regelmäßige Updates",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
     ],
   },
   about: {
     tag: "Warum uns wählen",
-    title:
-      "Machen Sie Ihre Kunden glücklich, indem Sie Dienstleistungen anbieten.",
+    title: "Glückliche Kunden durch unsere Dienstleistungen.",
     description:
-      "Es ist eine bekannte Tatsache, dass ein Leser durch den lesbaren Inhalt einer Seite abgelenkt wird, wenn er sich deren Layout ansieht. Der Punkt der Verwendung von Lorem Ipsum ist, dass es mehr oder weniger.\n\nEin Domainname ist einer der ersten Schritte zur Etablierung Ihrer Marke. Sichern Sie ein konsistentes Markenbild mit einem Domainnamen, der zu Ihrem Unternehmen passt.",
-    cta: "Loslegen",
+      "Es ist eine lange bekannte Tatsache, dass ein Leser durch den lesbaren Inhalt einer Seite abgelenkt wird, wenn er sich deren Layout ansieht. Der Punkt bei der Verwendung von Lorem Ipsum ist, dass es eine mehr oder weniger.\n\nEin Domainname ist einer der ersten Schritte zur Etablierung Ihrer Marke. Sichern Sie sich ein konsistentes Markenimage mit einem Domainnamen, der zu Ihrem Unternehmen passt.",
+    cta: "Jetzt loslegen",
   },
   portfolio: {
     tag: "Unser Portfolio",
-    title: "Unsere neuesten Projekte",
+    title: "Neueste Arbeiten",
     subtitle:
-      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
+      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
     projects: [
       {
         image: "/img/5.jpg",
         category: "Branding",
-        title: "Branding-Design",
+        title: "Markenidentität",
         buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
         image: "/img/6.jpg",
         category: "Marketing",
-        title: "Beste Marketing-Tipps",
+        title: "Marketingstrategien",
         buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
         image: "/img/7.jpg",
         category: "Entwicklung",
-        title: "Webdesign-Trend",
+        title: "Webentwicklung",
         buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
         image: "/img/8.jpg",
         category: "Design",
-        title: "Visitenkartendesign",
+        title: "Visitenkarten",
         buttonText: "Details anzeigen",
         buttonLink: "#",
       },
@@ -130,7 +130,7 @@ export default {
       {
         image: "/img/10.jpg",
         category: "Branding",
-        title: "Kreativagentur",
+        title: "Kreative Lösungen",
         buttonText: "Details anzeigen",
         buttonLink: "#",
       },
@@ -138,55 +138,55 @@ export default {
   },
   team: {
     tag: "Unser Team",
-    title: "Unser großartiges Team",
+    title: "Lernen Sie unsere Experten kennen",
     subtitle:
-      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
+      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
     members: [
       {
         image: "/img/11.jpg",
-        name: "Coriss Ambady",
+        name: "Jane Doe",
         profession: "Webentwickler",
       },
       {
         image: "/img/12.jpg",
-        name: "Glorius Cristian",
+        name: "John Smith",
         profession: "App-Entwickler",
       },
       {
         image: "/img/13.jpg",
-        name: "Jackie Sanders",
+        name: "Emily Davis",
         profession: "UI/UX-Designer",
       },
       {
         image: "/img/14.jpg",
-        name: "Nikolas Brooten",
+        name: "Michael Brown",
         profession: "Vertriebsleiter",
       },
     ],
   },
   cta: {
-    tag: "Finden Sie Ihre nächste Traum-App",
-    title: "Beginnen Sie mit\nunserem kostenlosen Test",
-    cta: "Pro-Version erhalten",
+    tag: "Entdecken Sie Ihre nächste Lieblings-App",
+    title: "Beginnen Sie mit\nUnserer kostenlosen Testversion",
+    cta: "Premium erhalten",
     secondary: "Kostenlose Testversion starten",
   },
   pricing: {
-    tag: "Preistabelle",
-    title: "Unser Preisplan",
+    tag: "Preispläne",
+    title: "Wählen Sie Ihren Plan",
     subtitle:
-      " Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
+      " Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
     plans: [
       {
         name: "Persönlich",
-        price: "$59",
+        price: "59€",
         description:
-          "Perfekt für die Nutzung auf einer persönlichen Website oder einem Kundenprojekt.",
+          "Perfekt für den Einsatz in einer persönlichen Website oder einem Kundenprojekt.",
         features: {
           users: "1 Benutzer",
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Für 1 (ein) Projekt verwenden",
+          projects: "Verwendung für 1 Projekt",
           support: "3 Monate Support",
         },
         button: {
@@ -194,33 +194,33 @@ export default {
         },
       },
       {
-        name: "Business",
-        price: "$199",
+        name: "Geschäftlich",
+        price: "199€",
         description:
-          "Perfekt für die Nutzung auf einer Business-Website oder einem Kundenprojekt.",
+          "Perfekt für den Einsatz in einer Unternehmenswebsite oder einem Kundenprojekt.",
         features: {
           users: "5 Benutzer",
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Für 3 (drei) Projekte verwenden",
+          projects: "Verwendung für 3 Projekte",
           support: "4 Monate Support",
         },
         button: {
-          text: "Business wählen",
+          text: "Geschäftlich wählen",
         },
       },
       {
         name: "Professionell",
-        price: "$256",
+        price: "256€",
         description:
-          "Perfekt für die Nutzung auf einer professionellen Website oder einem Kundenprojekt.",
+          "Perfekt für den Einsatz in einer professionellen Website oder einem Kundenprojekt.",
         features: {
           users: "Unbegrenzte Benutzer",
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Für unbegrenzte Projekte verwenden",
+          projects: "Verwendung für unbegrenzte Projekte",
           support: "12 Monate Support",
         },
         button: {
@@ -233,47 +233,46 @@ export default {
     testimonials: [
       {
         image: "/img/15.jpg",
-        reviewImg: "/img/lineicon.svg",
-        reviewAlt: "lineicon",
+        reviewImg: "/img/brands/logoipsum-296.svg",
+        reviewAlt: "ipsum",
         details:
-          "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",
-        name: "Larry Diamond",
+          "Dateispeicherung leicht gemacht – mit leistungsstarken Funktionen, die Sie nirgendwo anders finden. Ob Sie.",
+        name: "Robert Lee",
         position: "Chief Executive Officer.",
       },
       {
         image: "/img/16.jpg",
-        reviewImg: "/img/lineicon.svg",
-        reviewAlt: "lineicon",
+        reviewImg: "/img/brands/logoipsum-296.svg",
+        reviewAlt: "ipsum",
         details:
-          "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",
-        name: "Larry Diamond",
-        position: "Chief Executive Officer.",
+          "Dateispeicherung leicht gemacht – mit leistungsstarken Funktionen, die Sie nirgendwo anders finden. Ob Sie.",
+        name: "Alice Johnson",
+        position: "Geschäftsführer.",
       },
     ],
   },
   footer: {
     description:
-      "Sed ut perspiciatis undmnis ist natus error sit voluptatem totam rem aperiam.",
+      "Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam.",
     phone: "+1 234 567 890",
     followUs: "Folgen Sie uns auf",
-    copyright: "&copy; 2025 TailGrids",
+    copyright: "© 2025 IhrUnternehmen",
     menus: [
       {
         title: "Ressourcen",
         items: [
           { text: "SaaS-Entwicklung", link: "javascript:void(0)" },
           { text: "Unsere Produkte", link: "javascript:void(0)" },
-          { text: "User Flow", link: "javascript:void(0)" },
-          { text: "User Strategy", link: "javascript:void(0)" },
+          { text: "Benutzerfluss", link: "javascript:void(0)" },
+          { text: "Benutzerstrategie", link: "javascript:void(0)" },
         ],
       },
       {
         title: "Unternehmen",
         items: [
-          { text: "Über TailGrids", link: "javascript:void(0)" },
-          { text: "Kontakt & Support", link: "javascript:void(0)" },
-          { text: "Erfolgsgeschichte", link: "javascript:void(0)" },
-          { text: "Einstellungen & Datenschutz", link: "javascript:void(0)" },
+          { text: "Kontakt & Support", link: "/contact-us" },
+          { text: "Datenschutzrichtlinie", link: "/privacy-policy" },
+          { text: "Nutzungsbedingungen", link: "/terms-of-use" },
         ],
       },
       {

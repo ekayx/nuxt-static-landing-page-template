@@ -11,25 +11,25 @@ export default {
     toggleNightMode: "Toggle Night Mode",
   },
   header: {
-    title: "The Greatest\nJourney Of Online\nPayment.",
+    title: "The Ultimate\nOnline Experience\nfor Payments.",
     subtitle:
-      "With TailGrids, business and students thrive together. Business can perfectly match their staffing to changing demand throughout the dayed.",
+      "With our platform, businesses and students can thrive together. Easily match your staffing to changing demand throughout the day.",
     cta: "Get Started",
     download: "Download App",
-    clientsTitle: "Some of our clients",
+    clientsTitle: "Our Valued Clients",
     clients: [
       {
-        name: "Ayroui",
+        name: "Logo",
         logo: "/img/brands/logoipsum-297.svg",
         link: "javascript:void(0)",
       },
       {
-        name: "GrayGrids",
+        name: "LogoIpsum",
         logo: "/img/brands/logoipsum-311.svg",
         link: "javascript:void(0)",
       },
       {
-        name: "UIdeck",
+        name: "Ipsum",
         logo: "/img/brands/logoipsum-323.svg",
         link: "javascript:void(0)",
       },
@@ -37,99 +37,99 @@ export default {
   },
   services: {
     tag: "Our Services",
-    title: "What We Offer",
-    subtitle: "We provide the best services for you.",
+    title: "What We Provide",
+    subtitle: "We offer exceptional services tailored for you.",
     items: [
       {
         icon: "icon-[raphael--piechart]",
-        title: "Refreshing Design",
+        title: "Innovative Design",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
         icon: "icon-[mdi--tailwind]",
-        title: "Based on Tailwind CSS",
+        title: "Tailored Solutions",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
         icon: "icon-[fluent-mdl2--web-components]",
-        title: "100+ Components",
+        title: "Extensive Components",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
         icon: "icon-[fluent--top-speed-20-regular]",
-        title: "Speed Optimized",
+        title: "Optimized Performance",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
         icon: "icon-[teenyicons--layers-outline]",
-        title: "Fully Customizable",
+        title: "Highly Customizable",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
         icon: "icon-[ion--refresh]",
-        title: "Regular Updates",
+        title: "Frequent Updates",
         description:
-          "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
+          "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
     ],
   },
   about: {
     tag: "Why Choose Us",
-    title: "Make your customers happy by giving services.",
+    title: "Delivering Happiness to Your Customers.",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.\n\nA domain name is one of the first steps to establishing your brand. Secure a consistent brand image with a domain name that matches your business.",
     cta: "Get Started",
   },
   portfolio: {
     tag: "Our Portfolio",
-    title: "Our Recent Projects",
+    title: "Recent Works",
     subtitle:
       "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
     projects: [
       {
         image: "/img/5.jpg",
         category: "Branding",
-        title: "Branding Design",
+        title: "Brand Identity",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
         image: "/img/6.jpg",
         category: "Marketing",
-        title: "Best Marketing tips",
+        title: "Marketing Strategies",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
         image: "/img/7.jpg",
         category: "Development",
-        title: "Web Design Trend",
+        title: "Web Development",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
         image: "/img/8.jpg",
         category: "Design",
-        title: "Business Card Design",
+        title: "Business Cards",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
         image: "/img/9.jpg",
         category: "Marketing",
-        title: "Digital marketing",
+        title: "Digital Marketing",
         buttonText: "View Details",
         buttonLink: "#",
       },
       {
         image: "/img/10.jpg",
         category: "Branding",
-        title: "Creative Agency",
+        title: "Creative Solutions",
         buttonText: "View Details",
         buttonLink: "#",
       },
@@ -137,41 +137,41 @@ export default {
   },
   team: {
     tag: "Our Team",
-    title: "Our Awesome Team",
+    title: "Meet Our Experts",
     subtitle:
       "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
     members: [
       {
         image: "/img/11.jpg",
-        name: "Coriss Ambady",
+        name: "Jane Doe",
         profession: "Web Developer",
       },
       {
         image: "/img/12.jpg",
-        name: "Glorius Cristian",
+        name: "John Smith",
         profession: "App Developer",
       },
       {
         image: "/img/13.jpg",
-        name: "Jackie Sanders",
+        name: "Emily Davis",
         profession: "UI/UX Designer",
       },
       {
         image: "/img/14.jpg",
-        name: "Nikolas Brooten",
+        name: "Michael Brown",
         profession: "Sales Manager",
       },
     ],
   },
   cta: {
-    tag: "Find Your Next Dream App",
-    title: "Get started with\nour free trial",
-    cta: "Get Pro Version",
+    tag: "Discover Your Next Favorite App",
+    title: "Start with\nOur Free Trial",
+    cta: "Get Premium",
     secondary: "Start Free Trial",
   },
   pricing: {
-    tag: "Pricing Table",
-    title: "Our Pricing Plan",
+    tag: "Pricing Plans",
+    title: "Choose Your Plan",
     subtitle:
       " There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
     plans: [
@@ -232,20 +232,20 @@ export default {
     testimonials: [
       {
         image: "/img/15.jpg",
-        reviewImg: "/img/lineicon.svg",
-        reviewAlt: "lineicon",
+        reviewImg: "/img/brands/logoipsum-296.svg",
+        reviewAlt: "ipsum",
         details:
           "File storage made easy – including powerful features you won’t find anywhere else. Whether you’re.",
-        name: "Larry Diamond",
+        name: "Robert Lee",
         position: "Chief Executive Officer.",
       },
       {
         image: "/img/16.jpg",
-        reviewImg: "/img/lineicon.svg",
-        reviewAlt: "lineicon",
+        reviewImg: "/img/brands/logoipsum-296.svg",
+        reviewAlt: "ipsum",
         details:
           "File storage made easy – including powerful features you won’t find anywhere else. Whether you’re.",
-        name: "Larry Diamond",
+        name: "Alice Johnson",
         position: "Chief Executive Officer.",
       },
     ],
@@ -255,7 +255,7 @@ export default {
       "Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam.",
     phone: "+1 234 567 890",
     followUs: "Follow Us On",
-    copyright: "&copy; 2025 TailGrids",
+    copyright: "© 2025 YourCompany",
     menus: [
       {
         title: "Resources",
