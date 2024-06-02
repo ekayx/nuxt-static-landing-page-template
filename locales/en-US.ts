@@ -39,37 +39,37 @@ export default {
     subtitle: "We provide the best services for you.",
     items: [
       {
-        icon: "mdi-chart",
+        icon: "icon-[raphael--piechart]",
         title: "Refreshing Design",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[mdi--tailwind]",
         title: "Based on Tailwind CSS",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[fluent-mdl2--web-components]",
         title: "100+ Components",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[fluent--top-speed-20-regular]",
         title: "Speed Optimized",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[teenyicons--layers-outline]",
         title: "Fully Customizable",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[ion--refresh]",
         title: "Regular Updates",
         description:
           "We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.",

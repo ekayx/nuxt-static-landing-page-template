@@ -18,30 +18,22 @@ watch(locale, () => {
 
 const selectedCategory = ref<string>("All");
 
-const uniqueCategories = ref<string[]>([]);
-const filteredItems = ref<PortfolioItem[]>([]);
+const uniqueCategories = computed(() => {
+  return ["All", ...new Set(portfolioItems.value.map((item) => item.category))];
+});
 
-// Extract unique categories from portfolioItems
-onMounted(() => {
-  uniqueCategories.value = Array.from(
-    new Set(portfolioItems.value.map((item) => item.category))
-  );
-  filterItems();
+const filteredItems = computed(() => {
+  if (selectedCategory.value === "All") {
+    return portfolioItems.value;
+  } else {
+    return portfolioItems.value.filter(
+      (item) => item.category === selectedCategory.value
+    );
+  }
 });
 
 const selectCategory = (category: string) => {
   selectedCategory.value = category;
-  filterItems();
-};
-
-const filterItems = () => {
-  if (selectedCategory.value === "All") {
-    filteredItems.value = portfolioItems.value;
-  } else {
-    filteredItems.value = portfolioItems.value.filter(
-      (item) => item.category === selectedCategory.value
-    );
-  }
 };
 </script>
 
@@ -72,7 +64,7 @@ const filterItems = () => {
           <ul class="flex flex-wrap justify-center mb-12 space-x-1">
             <li class="mb-1">
               <button
-                v-for="category in ['All', ...uniqueCategories]"
+                v-for="category in uniqueCategories"
                 :key="category"
                 @click="selectCategory(category)"
                 :class="{

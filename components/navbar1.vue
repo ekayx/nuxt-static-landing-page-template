@@ -40,11 +40,15 @@ onUnmounted(() => {
 });
 
 const switchLocalePath = useSwitchLocalePath();
+
+const toggleTheme = () => {
+  document.documentElement.classList.toggle("dark");
+};
 </script>
 
 <template>
   <header
-    class="absolute z-10 top-0 flex w-full items-center bg-white dark:bg-dark"
+    class="fixed z-50 top-0 flex w-full items-center bg-white dark:bg-dark"
   >
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
@@ -100,19 +104,37 @@ const switchLocalePath = useSwitchLocalePath();
               </ul>
             </nav>
           </div>
-          <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-            <!-- language switcher -->
+          <div class="hidden justify-end pr-16 sm:flex lg:pr-0 text-2xl gap-4">
+            <!-- night mode tailwind  -->
             <button
-              v-for="locale in $i18n.availableLocales.filter(
-                (locale) => locale != $i18n.locale
-              )"
-              :key="`locale-${locale}`"
-              text
-              class="seemless white--text full-width"
-              :value="locale"
-              @click="setLocale(locale)"
+              class="flex justify-center items-center"
+              @click="toggleTheme"
             >
-              {{ locale }}
+              <span class="icon-[ic--round-dark-mode] dark:text-primary"></span>
+            </button>
+            <a
+              href="https://github.com/ekayx/nuxt-static-landing-page-template"
+              class="w-10 h-10 flex justify-center items-center"
+            >
+              <span class="icon-[mdi--github] dark:text-primary"></span>
+            </a>
+            <button
+              v-if="
+                $i18n.availableLocales.includes('de') && 'de' != $i18n.locale
+              "
+              class="flex justify-center items-center"
+              @click="setLocale('de')"
+            >
+              <span class="icon-[twemoji--flag-germany]"></span>
+            </button>
+            <button
+              v-if="
+                $i18n.availableLocales.includes('en') && 'en' != $i18n.locale
+              "
+              class="flex justify-center items-center"
+              @click="setLocale('en')"
+            >
+              <span class="icon-[twemoji--flag-united-kingdom]"></span>
             </button>
           </div>
         </div>

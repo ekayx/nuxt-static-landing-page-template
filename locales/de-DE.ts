@@ -9,9 +9,9 @@ export default {
     toggleNightMode: "Nachtmodus umschalten",
   },
   header: {
-    title: "Die größte\nReise des Online-\nZahlungssystems.",
+    title: "Die größte\nReise der\nOnline-Zahlungen.",
     subtitle:
-      "Mit TailGrids gedeihen Unternehmen und Studenten gemeinsam. Unternehmen können ihre Personaleinsatz perfekt an die wechselnde Nachfrage im Tagesverlauf anpassen.",
+      "Mit TailGrids gedeihen Unternehmen und Studierende zusammen. Unternehmen können ihr Personal perfekt an die sich ändernde Nachfrage im Laufe des Tages anpassen.",
     cta: "Loslegen",
     download: "App herunterladen",
     clientsTitle: "Einige unserer Kunden",
@@ -36,43 +36,43 @@ export default {
   services: {
     tag: "Unsere Dienstleistungen",
     title: "Was wir anbieten",
-    subtitle: "Wir bieten die besten Dienstleistungen für Sie.",
+    subtitle: "Wir bieten Ihnen die besten Dienstleistungen.",
     items: [
       {
-        icon: "mdi-chart",
+        icon: "icon-[raphael--piechart]",
         title: "Erfrischendes Design",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[mdi--tailwind]",
         title: "Basierend auf Tailwind CSS",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[fluent-mdl2--web-components]",
         title: "100+ Komponenten",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[fluent--top-speed-20-regular]",
         title: "Geschwindigkeitsoptimiert",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[teenyicons--layers-outline]",
         title: "Vollständig anpassbar",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "mdi-chart",
+        icon: "icon-[ion--refresh]",
         title: "Regelmäßige Updates",
         description:
-          "Wir arbeiten gerne mit anspruchsvollen Kunden, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
+          "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, Menschen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
     ],
   },
@@ -81,29 +81,29 @@ export default {
     title:
       "Machen Sie Ihre Kunden glücklich, indem Sie Dienstleistungen anbieten.",
     description:
-      "Es ist eine bekannte Tatsache, dass ein Leser vom lesbaren Inhalt einer Seite abgelenkt wird, wenn er sich ihr Layout ansieht. Der Punkt bei der Verwendung von Lorem Ipsum ist, dass es einen mehr oder weniger.",
+      "Es ist eine bekannte Tatsache, dass ein Leser durch den lesbaren Inhalt einer Seite abgelenkt wird, wenn er sich deren Layout ansieht. Der Punkt der Verwendung von Lorem Ipsum ist, dass es mehr oder weniger.\n\nEin Domainname ist einer der ersten Schritte zur Etablierung Ihrer Marke. Sichern Sie ein konsistentes Markenbild mit einem Domainnamen, der zu Ihrem Unternehmen passt.",
     cta: "Loslegen",
   },
   portfolio: {
     tag: "Unser Portfolio",
     title: "Unsere neuesten Projekte",
     subtitle:
-      "Es gibt viele Variationen von Passagen von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
+      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
     projects: [
       {
         image:
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-01.jpg",
         category: "Branding",
-        title: "Branding Design",
-        buttonText: "Details ansehen",
+        title: "Branding-Design",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
         image:
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg",
         category: "Marketing",
-        title: "Beste Marketingtipps",
-        buttonText: "Details ansehen",
+        title: "Beste Marketing-Tipps",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
@@ -111,7 +111,7 @@ export default {
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-03.jpg",
         category: "Entwicklung",
         title: "Webdesign-Trend",
-        buttonText: "Details ansehen",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
@@ -119,7 +119,7 @@ export default {
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-04.jpg",
         category: "Design",
         title: "Visitenkartendesign",
-        buttonText: "Details ansehen",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
@@ -127,30 +127,30 @@ export default {
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-05.jpg",
         category: "Marketing",
         title: "Digitales Marketing",
-        buttonText: "Details ansehen",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
       {
         image:
           "https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-06.jpg",
         category: "Branding",
-        title: "Kreative Agentur",
-        buttonText: "Details ansehen",
+        title: "Kreativagentur",
+        buttonText: "Details anzeigen",
         buttonLink: "#",
       },
     ],
   },
   team: {
     tag: "Unser Team",
-    title: "Unser tolles Team",
+    title: "Unser großartiges Team",
     subtitle:
-      "Es gibt viele Variationen von Passagen von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
+      "Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
     members: [
       {
         image:
           "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-01.jpg",
         name: "Coriss Ambady",
-        profession: "Web-Entwickler",
+        profession: "Webentwickler",
       },
       {
         image:
@@ -162,7 +162,7 @@ export default {
         image:
           "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-03.jpg",
         name: "Jackie Sanders",
-        profession: "UI/UX Designer",
+        profession: "UI/UX-Designer",
       },
       {
         image:
@@ -174,19 +174,19 @@ export default {
   },
   cta: {
     tag: "Finden Sie Ihre nächste Traum-App",
-    title: "Beginnen Sie mit\nunserer kostenlosen Testversion",
+    title: "Beginnen Sie mit\nunserem kostenlosen Test",
     cta: "Pro-Version erhalten",
     secondary: "Kostenlose Testversion starten",
   },
   pricing: {
     tag: "Preistabelle",
-    title: "Unser Preismodell",
+    title: "Unser Preisplan",
     subtitle:
-      "Es gibt viele Variationen von Passagen von Lorem Ipsum, aber die meisten haben in irgendeiner Form eine Veränderung erfahren.",
+      " Es gibt viele Varianten von Lorem Ipsum, aber die meisten haben in irgendeiner Form Veränderungen erfahren.",
     plans: [
       {
         name: "Persönlich",
-        price: "59€",
+        price: "$59",
         description:
           "Perfekt für die Nutzung auf einer persönlichen Website oder einem Kundenprojekt.",
         features: {
@@ -194,7 +194,7 @@ export default {
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Verwendung auf 1 (einem) Projekt",
+          projects: "Für 1 (ein) Projekt verwenden",
           support: "3 Monate Support",
         },
         button: {
@@ -203,7 +203,7 @@ export default {
       },
       {
         name: "Business",
-        price: "199€",
+        price: "$199",
         description:
           "Perfekt für die Nutzung auf einer Business-Website oder einem Kundenprojekt.",
         features: {
@@ -211,7 +211,7 @@ export default {
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Verwendung auf 3 (drei) Projekten",
+          projects: "Für 3 (drei) Projekte verwenden",
           support: "4 Monate Support",
         },
         button: {
@@ -220,7 +220,7 @@ export default {
       },
       {
         name: "Professionell",
-        price: "256€",
+        price: "$256",
         description:
           "Perfekt für die Nutzung auf einer professionellen Website oder einem Kundenprojekt.",
         features: {
@@ -228,7 +228,7 @@ export default {
           components: "Alle UI-Komponenten",
           access: "Lebenslanger Zugang",
           updates: "Kostenlose Updates",
-          projects: "Verwendung auf unbegrenzten Projekten",
+          projects: "Für unbegrenzte Projekte verwenden",
           support: "12 Monate Support",
         },
         button: {
@@ -246,7 +246,7 @@ export default {
           "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
         reviewAlt: "lineicon",
         details:
-          "Dateispeicherung leicht gemacht – mit leistungsstarken Funktionen, die Sie sonst nirgendwo finden. Ob Sie es sind.",
+          "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",
         name: "Larry Diamond",
         position: "Chief Executive Officer.",
       },
@@ -257,7 +257,7 @@ export default {
           "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg",
         reviewAlt: "lineicon",
         details:
-          "Dateispeicherung leicht gemacht – mit leistungsstarken Funktionen, die Sie sonst nirgendwo finden. Ob Sie es sind.",
+          "Dateispeicherung leicht gemacht – einschließlich leistungsstarker Funktionen, die Sie nirgendwo anders finden. Egal ob Sie.",
         name: "Larry Diamond",
         position: "Chief Executive Officer.",
       },
@@ -265,7 +265,7 @@ export default {
   },
   footer: {
     description:
-      "Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam.",
+      "Sed ut perspiciatis undmnis ist natus error sit voluptatem totam rem aperiam.",
     phone: "+1 234 567 890",
     followUs: "Folgen Sie uns auf",
     copyright: "&copy; 2025 TailGrids",
@@ -275,8 +275,8 @@ export default {
         items: [
           { text: "SaaS-Entwicklung", link: "javascript:void(0)" },
           { text: "Unsere Produkte", link: "javascript:void(0)" },
-          { text: "Benutzerfluss", link: "javascript:void(0)" },
-          { text: "Benutzerstrategie", link: "javascript:void(0)" },
+          { text: "User Flow", link: "javascript:void(0)" },
+          { text: "User Strategy", link: "javascript:void(0)" },
         ],
       },
       {

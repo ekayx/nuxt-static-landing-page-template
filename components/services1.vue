@@ -42,9 +42,10 @@ watch(locale, () => {
               class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
             >
               <div
-                class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
-                v-html="item.icon"
-              ></div>
+                class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl text-white text-3xl"
+              >
+                <span :class="item.icon"></span>
+              </div>
               <h4
                 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"
               >
