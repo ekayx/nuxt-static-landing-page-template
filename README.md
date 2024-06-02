@@ -2,7 +2,7 @@
 
 ## Demo
 
-<https://nuxt-static-landing-page-template.vercel.app/>
+<https://665cb492f44a0400089f95d6--funny-cassata-d205d1.netlify.app/>
 
 ## General
 
@@ -25,8 +25,10 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 ## Todos
 
+- add eslint and prettier configs
 - contact form via netlify forms
 - cookiemanager via usercentrics cookiebot
+- add lazy loading localization
 
 ## Future Work
 
