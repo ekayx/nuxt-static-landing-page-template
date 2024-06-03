@@ -7,7 +7,7 @@ const clients = ref(
     name: string;
     logo: string;
     link: string;
-  }[]
+  }[],
 );
 watch(locale, () => {
   clients.value = tm("header.clients");

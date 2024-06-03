@@ -7,7 +7,7 @@ const featuresItems = ref(
     icon: string;
     title: string;
     description: string;
-  }[]
+  }[],
 );
 watch(locale, () => {
   featuresItems.value = tm("services.items");

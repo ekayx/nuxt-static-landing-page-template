@@ -27,7 +27,7 @@ const filteredItems = computed(() => {
     return portfolioItems.value;
   } else {
     return portfolioItems.value.filter(
-      (item) => item.category === selectedCategory.value
+      (item) => item.category === selectedCategory.value,
     );
   }
 });

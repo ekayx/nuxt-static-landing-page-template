@@ -15,7 +15,7 @@ const navLinkItems = ref(
   tm("navbar.elements") as {
     text: string;
     scrollToId: string;
-  }[]
+  }[],
 );
 watch(locale, () => {
   navLinkItems.value = tm("navbar.elements");

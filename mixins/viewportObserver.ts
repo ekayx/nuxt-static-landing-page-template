@@ -3,7 +3,7 @@ const inViewportMixin = {
     // Funktion, die aufgerufen wird, wenn Elemente in den Viewport gelangen
     const inViewport = (
       entries: IntersectionObserverEntry[],
-      observer: IntersectionObserver
+      observer: IntersectionObserver,
     ) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
