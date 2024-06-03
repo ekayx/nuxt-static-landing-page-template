@@ -14,7 +14,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 - Nuxt 3
 - Typescript
-- Tailwind
+- Tailwind (incl night mode)
 - Sass
 - ESLint using @nuxt/eslint <https://eslint.nuxt.com/packages/module> and Prettier
 - Tailgrids
@@ -25,11 +25,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - animations and intersection animations via animista
 - placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
 - contact form via web3form <https://web3forms.com/>
-
-## Todo
-
-- cookie manager via usercentrics cookiebot
-- add lazy loading localization
+- cookie banner
 
 ## Future Work
 
