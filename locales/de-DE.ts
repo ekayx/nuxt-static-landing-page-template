@@ -253,7 +253,7 @@ export default {
   },
   footer: {
     description:
-      "Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam.",
+      "Das ist nur ein komplett zufälliger Text. Es ist nicht einmal Latein.",
     phone: "+1 234 567 890",
     followUs: "Folgen Sie uns auf",
     copyright: "© 2025 IhrUnternehmen",

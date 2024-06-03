@@ -1,4 +1,31 @@
 {
-  "cSpell.words": ["inviewport", "nuxi", "nuxt"],
+  "cSpell.words": [
+    "animista",
+    "cookiebot",
+    "dalle",
+    "germany",
+    "github",
+    "hotchar",
+    "Iconify",
+    "inviewport",
+    "logoipsum",
+    "netlify",
+    "nuxi",
+    "nuxt",
+    "piechart",
+    "posthog",
+    "raphael",
+    "tailgrids",
+    "teenyicons",
+    "twemoji",
+    "umami",
+    "uptimerobot",
+    "usercentrics"
+  ],
+  "cSpell.language": "en,de",
+  "cSpell.ignorePaths": [
+    "**/package.json",
+    "**/package-lock.json",
+  ],
   "eslint.experimental.useFlatConfig": true
 }

@@ -8,7 +8,7 @@
 
 Setting up small static websites to display a company, a product or a portfolio often takes much more time than initially expected. This repository is intended to simplify the start for developers who like to use vue / nuxt. Due to the server side rendering functionality of nuxt, the site is also relatively performant and quite good for SEO.
 
-Warning: Components in ./components are free components provided by tailgrids. The terms of use of Tailgrid apply. <https://tailgrids.com/license>
+Warning: Components in ./components are free components provided by tailgrids. The terms of use of tailgrids apply. <https://tailgrids.com/license>
 
 ## Includes
 
@@ -16,7 +16,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Typescript
 - Tailwind
 - Sass
-- ESLint using @nuxt/esling <https://eslint.nuxt.com/packages/module>
+- ESLint using @nuxt/eslint <https://eslint.nuxt.com/packages/module>
 - Tailgrids
 - Localization with nuxt/i18n
 - Icons via Iconify
@@ -25,11 +25,11 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - animations and intersection animations via animista
 - placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
 
-## Todos
+## Todo
 
 - add eslint and prettier configs
 - contact form via netlify forms
-- cookiemanager via usercentrics cookiebot
+- cookie manager via usercentrics cookiebot
 - add lazy loading localization
 
 ## Future Work
@@ -56,7 +56,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Nuxt/Tailwind: <https://tailwindcss.com/docs/guides/nuxtjs>
 - TailGrids: <https://tailgrids.com/> (using free components)
 - i18n: <https://i18n.nuxtjs.org/>
-- iconify: <https://iconify.design/docs/usage/css/tailwind/>
+- Iconify: <https://iconify.design/docs/usage/css/tailwind/>
 - all icons: <https://icon-sets.iconify.design/>
 - animista: <https://animate.style/>
 

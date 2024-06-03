@@ -252,7 +252,7 @@ export default {
   },
   footer: {
     description:
-      "Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam.",
+      "This ist just some random text to fill the footer with some content.",
     phone: "+1 234 567 890",
     followUs: "Follow Us On",
     copyright: "© 2025 YourCompany",
