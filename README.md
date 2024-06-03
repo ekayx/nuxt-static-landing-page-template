@@ -28,7 +28,6 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 ## Todo
 
-- make contact form cleaner
 - cookie manager via usercentrics cookiebot
 - add lazy loading localization
 
