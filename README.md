@@ -16,7 +16,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Typescript
 - Tailwind
 - Sass
-- ESLint using @nuxt/eslint <https://eslint.nuxt.com/packages/module>
+- ESLint using @nuxt/eslint <https://eslint.nuxt.com/packages/module> and Prettier
 - Tailgrids
 - Localization with nuxt/i18n
 - Icons via Iconify
@@ -27,7 +27,6 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 ## Todo
 
-- add eslint and prettier configs
 - contact form via netlify forms
 - cookie manager via usercentrics cookiebot
 - add lazy loading localization
