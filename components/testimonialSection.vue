@@ -55,7 +55,7 @@ const handleNext = () => {
 <template>
   <section class="pb-20 pt-20 dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
     <div class="container mx-auto">
-      <Swiper :slidesPerView="1" ref="sliderRef" @swiper="onSwiper">
+      <Swiper ref="sliderRef" :slides-per-view="1" @swiper="onSwiper">
         <template v-for="(item, index) in testimonialItems" :key="index">
           <SwiperSlide>
             <div class="relative flex justify-center">

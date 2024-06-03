@@ -1,12 +1,12 @@
 <template>
   <div>
-    <header-1 />
-    <services-1 />
-    <about-1 />
-    <portfolio-1 />
-    <team-1 />
-    <cta-1 />
-    <pricing-1 />
-    <testimonial-1 />
+    <header-section />
+    <services-section />
+    <about-section />
+    <portfolio-section />
+    <team-section />
+    <cta-section />
+    <pricing-section />
+    <testimonial-section />
   </div>
 </template>

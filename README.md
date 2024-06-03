@@ -16,6 +16,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Typescript
 - Tailwind
 - Sass
+- ESLint using @nuxt/esling <https://eslint.nuxt.com/packages/module>
 - Tailgrids
 - Localization with nuxt/i18n
 - Icons via Iconify

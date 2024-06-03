@@ -1,6 +1,8 @@
 {
   "cSpell.words": [
+    "inviewport",
     "nuxi",
     "nuxt"
-  ]
+  ],
+    "eslint.experimental.useFlatConfig": true,
 }

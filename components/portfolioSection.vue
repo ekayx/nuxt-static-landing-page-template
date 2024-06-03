@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 const { tm, locale } = useI18n();
 
@@ -69,13 +69,13 @@ const selectCategory = (category: string) => {
               <button
                 v-for="category in uniqueCategories"
                 :key="category"
-                @click="selectCategory(category)"
                 :class="{
                   'bg-primary text-white': selectedCategory === category,
                   'text-body-color dark:text-dark-6 hover:bg-primary hover:text-white':
                     selectedCategory !== category,
                 }"
                 class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8"
+                @click="selectCategory(category)"
               >
                 {{ category }}
               </button>
@@ -86,9 +86,9 @@ const selectCategory = (category: string) => {
 
       <div class="flex flex-wrap -mx-4">
         <div
-          class="w-full px-4 md:w-1/2 xl:w-1/3"
           v-for="item in filteredItems"
           :key="item.title"
+          class="w-full px-4 md:w-1/2 xl:w-1/3"
         >
           <div class="relative mb-12">
             <div class="overflow-hidden rounded-[10px]">
