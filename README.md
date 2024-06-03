@@ -2,7 +2,7 @@
 
 ## Demo
 
-<https://665cb492f44a0400089f95d6--funny-cassata-d205d1.netlify.app/>
+<https://funny-cassata-d205d1.netlify.app//>
 
 ## General
 
@@ -24,16 +24,17 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Image Optimization using `<NuxtImg>`
 - animations and intersection animations via animista
 - placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
+- contact form via web3form <https://web3forms.com/>
 
 ## Todo
 
-- contact form via netlify forms
+- make contact form cleaner
 - cookie manager via usercentrics cookiebot
 - add lazy loading localization
 
 ## Future Work
 
-- forms via web3forms, only error reports via netlify forms
+- some wow element to landing page
 - analytics via posthog or umami
 - error analytics via sentry
 - seo optimization, check google speed insights

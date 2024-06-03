@@ -1,0 +1,11 @@
+node_modules/
+.nuxt/
+.vscode/
+.git/
+.github/
+dist/
+.cache/
+.idea/
+.env
+*.log
+.DS_Store
