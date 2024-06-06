@@ -41,12 +41,9 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 ## Potential Future Work
 
-- get rid of tailwind plugin `tailgrids/plugin`
-- add some wow element to landing page
-- add analytics via posthog or umami
-- add error analytics via sentry
-- add an ai chat
-- test out hotchar
+- get rid of tailwind plugin `tailgrids/plugin` (seems to override some configurations)
+- add fancy stuff (special animations, 3d, ai chat)
+- integrate some analytics tools (posthog, umami, sentry, hotchar ...)
 
 ## How to use this template for your own website
 
