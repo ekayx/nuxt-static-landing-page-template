@@ -43,7 +43,7 @@ watch(locale, () => {
               <div class="relative overflow-hidden rounded-lg">
                 <NuxtImg
                   :src="item.image"
-                  alt="image"
+                  :alt="item.name"
                   class="w-full"
                   data-inviewport="scaleUpCenter"
                   width="540"

@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="showCookieBanner"
-    class="fixed z-50 bottom-0 w-full bg-gray-2 dark:bg-dark-2 xs:px-10 rounded-lg border border-stroke dark:border-dark-3 py-8 px-6 md:px-8 lg:px-10"
+    class="fixed z-50 bottom-0 w-full bg-white dark:bg-dark-2 xs:px-10 rounded-lg border border-stroke dark:border-dark-3 py-8 px-6 md:px-8 lg:px-10"
   >
     <div class="flex flex-wrap max-w-screen-2xl mx-auto">
       <div class="w-full md:w-7/12 lg:w-2/3">

@@ -68,7 +68,7 @@ const handleNext = () => {
                   >
                     <NuxtImg
                       :src="item.image"
-                      alt="image"
+                      alt="Customer with beard and glasses"
                       class="w-full"
                       data-inviewport="scaleUpCenter"
                       width="310"
@@ -372,11 +372,11 @@ const handleNext = () => {
                         {{ item.details }}
                       </p>
 
-                      <h4
+                      <h3
                         class="mb-2 text-[22px] font-semibold leading-[27px] text-dark dark:text-white"
                       >
                         {{ item.name }}
-                      </h4>
+                      </h3>
                       <p class="text-base text-body-color dark:text-dark-6">
                         {{ item.position }}
                       </p>

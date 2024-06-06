@@ -95,7 +95,7 @@ const selectCategory = (category: string) => {
             <div class="overflow-hidden rounded-[10px]">
               <NuxtImg
                 :src="item.image"
-                alt="portfolio"
+                :alt="item.title"
                 class="w-full"
                 data-inviewport="scaleUpCenter"
                 width="370"

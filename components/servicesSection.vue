@@ -49,11 +49,11 @@ watch(locale, () => {
               >
                 <span :class="item.icon"></span>
               </div>
-              <h4
+              <h3
                 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"
               >
                 {{ item.title }}
-              </h4>
+              </h3>
               <p class="text-body-color dark:text-dark-6">
                 {{ item.description }}
               </p>

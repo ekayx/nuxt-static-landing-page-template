@@ -47,6 +47,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 
 - Replace all content (`./components`) or just modify images, text, urls ...
 - update assets in `./public` and `./assets`
+- update nuxt config
 - remove unused languages from `i18n.config.ts` and update the localization files in `./locales`
 - add additional animations from animista to `assets\css\main.css`, especially for entryanimations for viewport intersections
 - update website head information in `./websiteHead.ts`

@@ -84,12 +84,12 @@ watch(locale, () => {
               </li>
             </ul>
             <div class="clients pt-16">
-              <h6
+              <p
                 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6"
               >
                 {{ $t("header.clientsTitle") }}
                 <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
-              </h6>
+              </p>
               <div class="flex items-center gap-4 xl:gap-[50px]">
                 <a
                   v-for="(client, index) in clients"

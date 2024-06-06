@@ -12,7 +12,7 @@
               <div class="py-3 sm:py-4">
                 <NuxtImg
                   src="/img/1.jpg"
-                  alt=""
+                  alt="Meeting of three people working on a project"
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
                   width="270"
@@ -22,7 +22,7 @@
               <div class="py-3 sm:py-4">
                 <NuxtImg
                   src="/img/2.jpg"
-                  alt=""
+                  alt="Single man working on a project"
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
                   width="270"
