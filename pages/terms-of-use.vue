@@ -70,6 +70,12 @@
   </div>
 </template>
 
+<script setup lang="ts">
+useHead({
+  title: "Terms of use",
+});
+</script>
+
 <style scoped>
 .container {
   font-family: Arial, sans-serif;

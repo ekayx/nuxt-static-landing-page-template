@@ -74,6 +74,12 @@
   </div>
 </template>
 
+<script setup lang="ts">
+useHead({
+  title: "Privacy Policy",
+});
+</script>
+
 <style scoped>
 .container {
   font-family: Arial, sans-serif;

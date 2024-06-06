@@ -130,7 +130,11 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+useHead({
+  title: "Contact Page",
+});
+
 const form = ref({
   access_key: "1edd7c22-a116-4dac-9344-a6fe33a12873",
   subject: "New Submission from Web3Forms",

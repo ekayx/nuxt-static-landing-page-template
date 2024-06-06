@@ -34,7 +34,7 @@
               <div class="relative z-10 my-4">
                 <NuxtImg
                   src="/img/3.jpg"
-                  alt=""
+                  alt="Single man with glasses standing straight forward"
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
                   width="270"
