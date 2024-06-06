@@ -33,7 +33,11 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - cookie banner
 - seo and accessibility optimization (aria-labels, head, alt ...)
 
-![lighthouse scores](readme-assets/lighthouse-scores.png)
+## Lighthouse Scores
+
+[![lighthouse scores](readme-assets/lighthouse-scores.png "Scores")](https://pagespeed.web.dev/analysis/https-funny-cassata-d205d1-netlify-app/6pooz8d7qw?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-US&utm_source=lh-chrome-ext)
+
+<https://pagespeed.web.dev/analysis/https-funny-cassata-d205d1-netlify-app/6pooz8d7qw?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-US&utm_source=lh-chrome-ext/>
 
 ## Potential Future Work
 
