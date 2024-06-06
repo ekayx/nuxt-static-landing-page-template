@@ -156,7 +156,6 @@ const submitForm = async () => {
       method: "POST",
       body: form.value,
     });
-    console.log(response);
     result.value = response.message;
     if (response.success) {
       status.value = "success";
@@ -164,7 +163,6 @@ const submitForm = async () => {
       status.value = "error";
     }
   } catch (error) {
-    console.log(error); // Log for debugging, can be removed
     status.value = "error";
     result.value = "Something went wrong!";
   } finally {
