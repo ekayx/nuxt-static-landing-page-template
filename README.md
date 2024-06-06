@@ -28,6 +28,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - Image Optimization using `<NuxtImg>`
 - animations and intersection animations via animista
 - placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
+- favicons generated using <https://favicon.io/>
 - contact form via web3form <https://web3forms.com/>
 - cookie banner
 - seo and accessibility optimization (aria-labels, head, alt ...)

@@ -142,6 +142,7 @@ const form = ref({
   lastName: "",
   email: "",
   message: "",
+  phone: "",
 });
 
 const result = ref("");
@@ -150,7 +151,8 @@ const status = ref("");
 const submitForm = async () => {
   try {
     status.value = "loading";
-    const response = await $fetch("https://api.web3forms.com/submit", {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const response: any = await $fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: form.value,
     });
@@ -167,9 +169,11 @@ const submitForm = async () => {
     result.value = "Something went wrong!";
   } finally {
     // Reset form after submission
-    form.value.name = "";
+    form.value.lastName = "";
+    form.value.firstName = "";
     form.value.email = "";
     form.value.message = "";
+    form.value.phone = "";
   }
 };
 </script>
