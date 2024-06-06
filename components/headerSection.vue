@@ -37,16 +37,18 @@ watch(locale, () => {
             <ul class="flex flex-wrap items-center">
               <li>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
+                  aria-label="cta"
                 >
                   {{ $t("header.cta") }}
                 </a>
               </li>
               <li>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   class="inline-flex items-center justify-center py-3 px-5 text-center text-base font-medium text-[#464646] dark:text-white hover:text-primary"
+                  aria-label="download"
                 >
                   <span class="mr-2">
                     <svg
@@ -94,8 +96,14 @@ watch(locale, () => {
                   :key="index"
                   :href="client.link"
                   class="block py-3"
+                  aria-label="client"
                 >
-                  <img :src="client.logo" :alt="client.name" />
+                  <img
+                    :src="client.logo"
+                    :alt="client.name"
+                    height="60"
+                    width="180"
+                  />
                 </a>
               </div>
             </div>
@@ -106,9 +114,12 @@ watch(locale, () => {
           <div class="lg:ml-auto lg:text-right">
             <div class="relative z-10 inline-block pt-11 lg:pt-0">
               <NuxtImg
+                preload
                 src="/img/4.png"
                 alt="hero"
                 class="max-w-full lg:ml-auto"
+                width="491"
+                height="515"
               />
               <span class="absolute -left-8 -bottom-8 z-[-1]">
                 <svg

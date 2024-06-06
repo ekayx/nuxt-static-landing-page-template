@@ -42,10 +42,10 @@ watch(locale, () => {
         <template v-for="(item, index) in featuresItems" :key="index">
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div
-              class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+              class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-xl hover:shadow-2xl md:px-7 xl:px-10"
             >
               <div
-                class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl text-white text-3xl"
+                class="bg-white dark:bg-transparent mb-8 flex h-[48px] w-[48px] items-center justify-center rounded-2xl text-primary text-5xl"
               >
                 <span :class="item.icon"></span>
               </div>

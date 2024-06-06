@@ -19,13 +19,15 @@
           <div class="w-full px-4 lg:w-1/2">
             <div class="flex flex-wrap lg:justify-end">
               <a
-                href="javascript:void(0)"
+                aria-label="cta"
+                href="/"
                 class="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md hover:bg-shadow-1 text-primary px-7"
               >
                 {{ $t("cta.cta") }}
               </a>
               <a
-                href="javascript:void(0)"
+                aria-label="go to premium"
+                href="/"
                 class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-opacity-90"
               >
                 {{ $t("cta.secondary") }}

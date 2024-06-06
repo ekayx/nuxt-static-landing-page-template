@@ -20,12 +20,14 @@
         <div class="flex items-center space-x-3 md:justify-end">
           <button
             class="bg-primary inline-flex items-center justify-center rounded-md py-3 px-7 text-center text-base font-medium text-white hover:bg-blue-dark"
+            aria-label="Accept Cookies"
             @click="acceptCookies"
           >
             Accept
           </button>
           <button
             class="text-body-color dark:text-dark-6 shadow-1 dark:shadow-none hover:bg-primary inline-flex items-center justify-center rounded-md bg-white dark:bg-dark py-3 px-7 text-center text-base font-medium hover:text-white"
+            aria-label="Close Cookie Dialog"
           >
             Close
           </button>

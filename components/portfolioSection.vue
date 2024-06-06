@@ -75,6 +75,7 @@ const selectCategory = (category: string) => {
                     selectedCategory !== category,
                 }"
                 class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8"
+                aria-label="Category"
                 @click="selectCategory(category)"
               >
                 {{ category }}
@@ -97,6 +98,8 @@ const selectCategory = (category: string) => {
                 alt="portfolio"
                 class="w-full"
                 data-inviewport="scaleUpCenter"
+                width="370"
+                height="300"
               />
             </div>
             <div
@@ -111,6 +114,7 @@ const selectCategory = (category: string) => {
               <a
                 :href="item.buttonLink"
                 class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white"
+                aria-label="button"
               >
                 {{ item.buttonText }}
               </a>

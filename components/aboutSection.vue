@@ -15,6 +15,8 @@
                   alt=""
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
+                  width="270"
+                  height="320"
                 />
               </div>
               <div class="py-3 sm:py-4">
@@ -23,6 +25,8 @@
                   alt=""
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
+                  width="270"
+                  height="320"
                 />
               </div>
             </div>
@@ -33,6 +37,8 @@
                   alt=""
                   class="w-full rounded-2xl"
                   data-inviewport="scaleUpCenter"
+                  width="270"
+                  height="320"
                 />
                 <span class="absolute -right-7 -bottom-7 z-[-1]">
                   <svg
@@ -622,7 +628,8 @@
               <span class="pre-line"> {{ $t("about.description") }}</span>
             </p>
             <a
-              href="javascript:void(0)"
+              href="/"
+              aria-label="Learn More"
               class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
             >
               {{ $t("about.cta") }}

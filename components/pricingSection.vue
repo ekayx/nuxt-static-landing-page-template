@@ -95,7 +95,7 @@ watch(locale, () => {
               </p>
             </div>
             <a
-              href="javascript:void(0)"
+              href="/"
               :class="{
                 ' border-primary bg-primary text-white hover:bg-opacity-90':
                   plan.name === 'Business',
@@ -103,6 +103,7 @@ watch(locale, () => {
                   plan.name !== 'Business',
               }"
               class="block w-full rounded-md border p-3 text-center text-base font-medium transition"
+              :aria-label="plan.button.text"
             >
               {{ plan.button.text }}
             </a>

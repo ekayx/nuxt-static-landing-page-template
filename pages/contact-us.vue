@@ -116,6 +116,7 @@
             <div class="mb-6">
               <button
                 type="submit"
+                aria-label="Submit"
                 class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
               >
                 Send Message

@@ -71,6 +71,8 @@ const handleNext = () => {
                       alt="image"
                       class="w-full"
                       data-inviewport="scaleUpCenter"
+                      width="310"
+                      height="420"
                     />
                     <span
                       class="absolute -left-6 -top-6 z-[-1] hidden sm:block"
@@ -358,6 +360,8 @@ const handleNext = () => {
                         <img
                           :src="item.reviewImg"
                           :alt="item.reviewAlt"
+                          height="40"
+                          width="40"
                           data-inviewport="scaleUpCenter"
                         />
                       </div>
@@ -390,6 +394,7 @@ const handleNext = () => {
         >
           <div class="prev-arrow cursor-pointer" @click="handlePrev">
             <button
+              aria-label="Previous"
               class="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none"
             >
               <svg
@@ -410,6 +415,7 @@ const handleNext = () => {
 
           <div class="next-arrow cursor-pointer" @click="handleNext">
             <button
+              aria-label="Next"
               class="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none"
             >
               <svg

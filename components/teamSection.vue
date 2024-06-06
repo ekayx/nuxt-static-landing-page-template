@@ -46,6 +46,8 @@ watch(locale, () => {
                   alt="image"
                   class="w-full"
                   data-inviewport="scaleUpCenter"
+                  width="540"
+                  height="660"
                 />
                 <div class="absolute bottom-5 left-0 w-full text-center">
                   <div

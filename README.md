@@ -1,14 +1,18 @@
 # nuxt-static-landing-page-template (nuxt, typescript, tailwind, tailgrids)
 
+![nuxt and tailwind](readme-assets/nuxt-and-tailwind.png)
+
 ## Demo
 
-<https://funny-cassata-d205d1.netlify.app//>
+[![Website](readme-assets/website-screenshot.png "Screenshot")](https://funny-cassata-d205d1.netlify.app)
+
+Demo: <https://funny-cassata-d205d1.netlify.app//>
 
 ## General
 
-Setting up small static websites to display a company, a product or a portfolio often takes much more time than initially expected. This repository is intended to simplify the start for developers who like to use vue / nuxt. Due to the server side rendering functionality of nuxt, the site is also relatively performant and quite good for SEO.
+Setting up small static websites to present a company or a product often takes much more time than initially expected. This repository is intended to simplify the start for developers which prefer nuxt. Due to the server side rendering functionality of nuxt, the site is also relatively performant and quite good for SEO.
 
-Warning: Components in ./components are free components provided by tailgrids. The terms of use of tailgrids apply. <https://tailgrids.com/license>
+Warning: Components in ./components are free components provided by tailgrids. Their terms of use apply. <https://tailgrids.com/license>.
 
 ## Includes
 
@@ -26,27 +30,32 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - placeholder images generated with dalle <https://openai.com/index/dall-e-3/> and logoipsum <https://logoipsum.com/>
 - contact form via web3form <https://web3forms.com/>
 - cookie banner
+- seo and accessibility optimization (aria-labels, head, alt ...)
 
-## Future Work
+![lighthouse scores](readme-assets/lighthouse-scores.png)
 
-- some wow element to landing page
-- analytics via posthog or umami
-- error analytics via sentry
-- seo optimization, check google speed insights
-- ai chat via ?
-- hotchar ?
-- uptimerobot ?
+## Potential Future Work
 
-## Need to be replaced during setup
+- get rid of tailwind plugin `tailgrids/plugin`
+- add some wow element to landing page
+- add analytics via posthog or umami
+- add error analytics via sentry
+- add an ai chat
+- test out hotchar
 
-- components for sections in ./components
-- public/favicon.ico
-- available languages in localization files in ./locales and in navbar element
-- add additional animations from animista to `assets\css\main.css`
+## How to use this template for your own website
+
+- Replace all content (`./components`) or just modify images, text, urls ...
+- update assets in `./public` and `./assets`
+- remove unused languages from `i18n.config.ts` and update the localization files in `./locales`
+- add additional animations from animista to `assets\css\main.css`, especially for entryanimations for viewport intersections
+- update website head information in `./websiteHead.ts`
+- publish using any provider e.g. netlify or vercel
 
 ## Documentations
 
 - Nuxt: <https://nuxt.com/docs/getting-started/introduction>
+- Vue: <https://vuejs.org/>
 - Nuxt/Typescript: <https://nuxt.com/docs/guide/concepts/typescript>
 - Nuxt/Tailwind: <https://tailwindcss.com/docs/guides/nuxtjs>
 - TailGrids: <https://tailgrids.com/> (using free components)
@@ -55,9 +64,7 @@ Warning: Components in ./components are free components provided by tailgrids. T
 - all icons: <https://icon-sets.iconify.design/>
 - animista: <https://animate.style/>
 
-## Setup
-
-Make sure to install the dependencies:
+## Setup / Install dependencies
 
 ```bash
 npm install

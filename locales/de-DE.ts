@@ -21,17 +21,17 @@ export default {
       {
         name: "Logo",
         logo: "/img/brands/logoipsum-297.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
       {
         name: "LogoIpsum",
         logo: "/img/brands/logoipsum-311.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
       {
         name: "Ipsum",
         logo: "/img/brands/logoipsum-323.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
     ],
   },
@@ -42,13 +42,13 @@ export default {
       "Wir bieten außergewöhnliche Dienstleistungen, die auf Sie zugeschnitten sind.",
     items: [
       {
-        icon: "icon-[raphael--piechart]",
+        icon: "icon-[clarity--design-line]",
         title: "Innovatives Design",
         description:
           "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
       },
       {
-        icon: "icon-[mdi--tailwind]",
+        icon: "icon-[teenyicons--tailwind-outline]",
         title: "Maßgeschneiderte Lösungen",
         description:
           "Wir arbeiten gerne mit anspruchsvollen Kunden zusammen, für die Qualität, Service, Integrität und Ästhetik wichtig sind.",
@@ -261,10 +261,10 @@ export default {
       {
         title: "Ressourcen",
         items: [
-          { text: "SaaS-Entwicklung", link: "javascript:void(0)" },
-          { text: "Unsere Produkte", link: "javascript:void(0)" },
-          { text: "Benutzerfluss", link: "javascript:void(0)" },
-          { text: "Benutzerstrategie", link: "javascript:void(0)" },
+          { text: "SaaS-Entwicklung", link: "/" },
+          { text: "Unsere Produkte", link: "/" },
+          { text: "Benutzerfluss", link: "/" },
+          { text: "Benutzerstrategie", link: "/" },
         ],
       },
       {
@@ -278,10 +278,10 @@ export default {
       {
         title: "Schnellzugriff",
         items: [
-          { text: "Premium-Support", link: "javascript:void(0)" },
-          { text: "Unsere Dienstleistungen", link: "javascript:void(0)" },
-          { text: "Unser Team kennenlernen", link: "javascript:void(0)" },
-          { text: "App herunterladen", link: "javascript:void(0)" },
+          { text: "Premium-Support", link: "/" },
+          { text: "Unsere Dienstleistungen", link: "/" },
+          { text: "Unser Team kennenlernen", link: "/" },
+          { text: "App herunterladen", link: "/" },
         ],
       },
     ],

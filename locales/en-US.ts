@@ -21,17 +21,17 @@ export default {
       {
         name: "Logo",
         logo: "/img/brands/logoipsum-297.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
       {
         name: "LogoIpsum",
         logo: "/img/brands/logoipsum-311.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
       {
         name: "Ipsum",
         logo: "/img/brands/logoipsum-323.svg",
-        link: "javascript:void(0)",
+        link: "/",
       },
     ],
   },
@@ -41,13 +41,13 @@ export default {
     subtitle: "We offer exceptional services tailored for you.",
     items: [
       {
-        icon: "icon-[raphael--piechart]",
+        icon: "icon-[clarity--design-line]",
         title: "Innovative Design",
         description:
           "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
       },
       {
-        icon: "icon-[mdi--tailwind]",
+        icon: "icon-[teenyicons--tailwind-outline]",
         title: "Tailored Solutions",
         description:
           "We enjoy working with discerning clients, people for whom quality, service, integrity & aesthetics matter.",
@@ -260,10 +260,10 @@ export default {
       {
         title: "Resources",
         items: [
-          { text: "SaaS Development", link: "javascript:void(0)" },
-          { text: "Our Products", link: "javascript:void(0)" },
-          { text: "User Flow", link: "javascript:void(0)" },
-          { text: "User Strategy", link: "javascript:void(0)" },
+          { text: "SaaS Development", link: "/" },
+          { text: "Our Products", link: "/" },
+          { text: "User Flow", link: "/" },
+          { text: "User Strategy", link: "/" },
         ],
       },
       {
@@ -277,10 +277,10 @@ export default {
       {
         title: "Quick Links",
         items: [
-          { text: "Premium Support", link: "javascript:void(0)" },
-          { text: "Our Services", link: "javascript:void(0)" },
-          { text: "Know Our Team", link: "javascript:void(0)" },
-          { text: "Download App", link: "javascript:void(0)" },
+          { text: "Premium Support", link: "/" },
+          { text: "Our Services", link: "/" },
+          { text: "Know Our Team", link: "/" },
+          { text: "Download App", link: "/" },
         ],
       },
     ],

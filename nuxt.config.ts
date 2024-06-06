@@ -1,5 +1,12 @@
+import websiteHead from "./websiteHead";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      ...websiteHead,
+    },
+  },
   devtools: { enabled: true },
   typescript: {
     typeCheck: true,
